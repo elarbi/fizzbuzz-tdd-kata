@@ -18,7 +18,7 @@ public class FizzBuzzTest {
     @Test
     public void testThatMultiplesOf3isReplacedByFizz() {
 
-        //FizzBuzzGenerator.from(0).to(100).generate()
+        //?refactor to FizzBuzzGenerator.from(0).to(100).generate()
         int to = 1000;
         List<Object> generatedSequence = FizzBuzzGenerator.generateTo(to);
 
@@ -36,11 +36,6 @@ public class FizzBuzzTest {
 
         ;
     }
-
-
-//            if (i % 5 == 0) {
-//                assertTrue(generatedSequence.get(i+1).equals("Buzz"));
-//            }
 
 
     @Test
